@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent }  from './app.component';
 import { FooterComponent } from "./shared/footer.component";
 import { NavComponent } from "./shared/nav.component";
+
 import { HomeComponent } from "./home/home.component";
 import { ErrorComponent } from "./error/error.component";
 import { AppRoutingModue } from "./shared/app.routing";
@@ -18,7 +19,7 @@ imports: [
   declarations: [
                   AppComponent ,
                   NavComponent,
-                  FooterComponent,
+                  FooterComponent,                  
                   HomeComponent,
                   ErrorComponent                  
                 ],
